@@ -1,0 +1,1 @@
+import{r}from"./chunk.ZL53POKZ-Dci-Rmfy.js";r("material",{resolver:r=>{const t=r.match(/^(.*?)(_(round|sharp))?$/);return`https://cdn.jsdelivr.net/npm/@material-icons/svg@1.0.5/svg/${t[1]}/${t[3]||"outline"}.svg`},mutator:r=>r.setAttribute("fill","currentColor")});

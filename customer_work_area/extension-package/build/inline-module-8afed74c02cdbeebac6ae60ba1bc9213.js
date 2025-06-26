@@ -1,0 +1,1 @@
+import{registerIconLibrary as t}from"https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace/dist/utilities/icon-library.js";t("material",{resolver:t=>{const e=t.match(/^(.*?)(_(round|sharp))?$/);return`https://cdn.jsdelivr.net/npm/@material-icons/svg@1.0.5/svg/${e[1]}/${e[3]||"outline"}.svg`},mutator:t=>t.setAttribute("fill","currentColor")});
