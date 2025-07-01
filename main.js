@@ -21,6 +21,7 @@ export class MainPage extends LitElement {
   }
   constructor() {
     super();
+    // localStorage.removeItem('apiKey');
   }
 }
 window.customElements.define('main-page', MainPage);
