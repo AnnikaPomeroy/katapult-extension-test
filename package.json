@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "katapult-pro-extended": "^1.0.0"
+    "katapult-pro-extended": "^1.0.8"
   },
   "scripts": {
     "build": "rollup -c rollup.config.js",

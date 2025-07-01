@@ -4,19 +4,18 @@ import 'katapult-pro-extended/src/elements/page-element/katapult-page-element.js
 export class MainPage extends LitElement {
   static properties = {}
   static styles = css`
-    :host {
-      /* Ideally the primary and secondary color should compliment each other or be different tones of the same color */
-      --primary-color: var(--sl-color-indigo-700, darkgrey) !important; /* Middle Color */
-      --secondary-color: var(--sl-color-indigo-950, black) !important; /* Darkest Color */
-      --accent-color: var(--sl-color-amber-400, orange) !important; /* Bright/Standout Color */
+    :host{
+      --primary-color: var(--paper-light-green-500);
+      --secondary-color: var(--paper-light-green-600);
+      --accent-color: var(--paper-amber-600);
     }
   `
   render() {
     return html`
       <!-- Page Element Content -->
       <katapult-page-element .supportNum=${'111-111-1111'} .supportEmail=${'email@company.com'} .companyName=${'Company Name'} .logoLink=${''}>
-        <!-- <katapult-job-picker></katapult-job-picker> -->
-        <!-- <katapult-warning>Alert</katapult-warning> -->
+      <!-- <katapult-job-picker></katapult-job-picker> -->
+      <!-- <katapult-warning>Alert</katapult-warning> -->
       </katapult-page-element>
     `
   }
