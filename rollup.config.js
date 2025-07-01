@@ -7,7 +7,7 @@ const __dirname = import.meta.dirname;
 export default {
   input: path.resolve(__dirname, 'index.html'),
   output: {
-    dir: './build',
+    dir: './public',
     format: 'esm'
   },
   plugins: [

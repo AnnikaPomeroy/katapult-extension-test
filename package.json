@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "firebase": "^11.10.0",
+    "firebase-tools": "^14.9.0",
     "katapult-pro-extended": "^1.0.8"
   },
   "scripts": {
