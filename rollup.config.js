@@ -17,6 +17,6 @@ export default {
       flattenOutput: false,
       rootDir: __dirname,
       extractAssets: true
-    }),
+    })
   ]
 }
