@@ -2,7 +2,7 @@
   "dependencies": {
     "firebase": "^11.10.0",
     "firebase-tools": "^14.9.0",
-    "katapult-pro-extended": "^1.2.3"
+    "katapult-pro-extended": "^1.2.6"
   },
   "scripts": {
     "build": "rollup -c rollup.config.js",
